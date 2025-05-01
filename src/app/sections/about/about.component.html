@@ -1,0 +1,67 @@
+<section class="about-section">
+  <div class="container">
+    <div class="content-wrapper">
+      <div class="text-content" [@fadeInRight]>
+        <h2 class="section-title">{{ 'ABOUT.TITLE' | translate }}</h2>
+
+        <div class="description">
+          <div class="highlight">{{ 'ABOUT.SUBTITLE' | translate }}</div>
+          <p>{{ 'ABOUT.DESCRIPTION' | translate }}</p>
+        </div>
+
+        <div class="achievements-grid">
+          <div class="achievement-card">
+            <span class="number">2+</span>
+            <span class="label">{{ 'ABOUT.EXPERIENCE' | translate }}</span>
+          </div>
+          <div class="achievement-card">
+            <span class="number">10+</span>
+            <span class="label">{{ 'ABOUT.PROJECTS' | translate }}</span>
+          </div>
+          <div class="achievement-card">
+            <span class="number">5+</span>
+            <span class="label">{{ 'ABOUT.CLIENTS' | translate }}</span>
+          </div>
+        </div>
+
+        <div class="skills-container">
+          <h3>{{ 'ABOUT.SKILLS_TITLE' | translate }}</h3>
+          <div class="skills-grid">
+            <div class="skill-tag">{{ 'ABOUT.SKILLS.ANGULAR' | translate }}</div>
+            <div class="skill-tag">{{ 'ABOUT.SKILLS.TYPESCRIPT' | translate }}</div>
+            <div class="skill-tag">{{ 'ABOUT.SKILLS.JAVASCRIPT' | translate }}</div>
+            <div class="skill-tag">{{ 'ABOUT.SKILLS.HTML_CSS' | translate }}</div>
+            <div class="skill-tag">{{ 'ABOUT.SKILLS.NODEJS' | translate }}</div>
+            <div class="skill-tag">{{ 'ABOUT.SKILLS.REACT' | translate }}</div>
+            <div class="skill-tag">{{ 'ABOUT.SKILLS.GIT' | translate }}</div>
+            <div class="skill-tag">{{ 'ABOUT.SKILLS.MONGODB' | translate }}</div>
+            <div class="skill-tag">{{ 'ABOUT.SKILLS.SQL' | translate }}</div>
+            <div class="skill-tag">{{ 'ABOUT.SKILLS.FLUTTER' | translate }}</div>
+            <div class="skill-tag">{{ 'ABOUT.SKILLS.LARAVEL' | translate }}</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="visual-content" [@fadeInLeft]>
+        <div class="code-editor">
+          <div class="editor-header">
+            <div class="dots">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+            <span class="file-name">about.js</span>
+          </div>
+          <div class="editor-content">
+            <pre>
+const developer = {{ '{' }}
+  name: '{{ 'LOGO.NAME' | translate }}',
+  role: '{{ 'HERO.TITLE' | translate }}',
+  passion: '{{ 'ABOUT.PASSION' | translate }}'
+{{ '}' }};</pre>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

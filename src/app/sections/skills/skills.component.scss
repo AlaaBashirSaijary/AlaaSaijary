@@ -1,0 +1,142 @@
+.skills-section {
+  background: linear-gradient(135deg, #1a0836 0%, #2d1065 50%, #4a1d96 100%);
+  min-height: 100vh;
+  padding: 6rem 0;
+  position: relative;
+  overflow: hidden;
+
+  .container {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 2rem;
+  }
+
+  .section-header {
+    text-align: center;
+    margin-bottom: 4rem;
+
+    .section-title {
+      font-size: 3rem;
+      background: linear-gradient(to right, #fff, #f0abfc);
+      -webkit-background-clip: text;
+      background-clip: text;
+      -webkit-text-fill-color: transparent;
+      margin-bottom: 1rem;
+    }
+
+    .section-subtitle {
+      color: #fff;
+      font-size: 1.2rem;
+      opacity: 0.9;
+    }
+  }
+
+  .skills-container {
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+  }
+
+  .skills-category {
+    h3 {
+      color: #f0abfc;
+      font-size: 1.8rem;
+      margin-bottom: 2rem;
+      position: relative;
+
+      &::after {
+        content: '';
+        position: absolute;
+        bottom: -8px;
+        left: 0;
+        width: 60px;
+        height: 3px;
+        background: linear-gradient(to right, #f0abfc, transparent);
+        border-radius: 2px;
+      }
+    }
+  }
+
+  .skills-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+  }
+
+  .skill-card {
+    background: rgba(240, 171, 252, 0.1);
+    border-radius: 15px;
+    padding: 2rem;
+    border: 1px solid rgba(240, 171, 252, 0.2);
+    transition: all 0.3s ease;
+
+    &:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+      background: rgba(240, 171, 252, 0.15);
+    }
+
+    .skill-icon {
+      font-size: 2.5rem;
+      color: #f0abfc;
+      margin-bottom: 1.5rem;
+    }
+
+    h4 {
+      color: #fff;
+      font-size: 1.2rem;
+      margin-bottom: 1rem;
+    }
+
+    .skill-level {
+      .progress-bar {
+        height: 8px;
+        background: rgba(255, 255, 255, 0.1);
+        border-radius: 4px;
+        overflow: hidden;
+        margin-bottom: 0.5rem;
+
+        .progress {
+          height: 100%;
+          background: linear-gradient(90deg, #f0abfc, #c084fc);
+          border-radius: 4px;
+          transition: width 1s ease-in-out;
+        }
+      }
+
+      span {
+        color: #fff;
+        font-size: 0.9rem;
+        opacity: 0.8;
+      }
+    }
+  }
+}
+
+// Add RTL support without changing the original design
+[dir="rtl"] {
+  .skills-section {
+    .skills-category {
+      text-align: right;
+    }
+
+    .skill-card {
+      direction: rtl;
+      text-align: right;
+
+      .skill-level {
+        direction: ltr; // Keep progress bar direction left-to-right
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .skills-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .skill-category {
+    padding: 1.5rem;
+  }
+}

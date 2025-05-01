@@ -1,0 +1,73 @@
+<section class="projects-section" id="projects">
+  <div class="container">
+    <h2 class="section-title" @fadeInUp>{{ 'PROJECTS.TITLE' | translate }}</h2>
+
+    <div class="categories" @fadeInUp>
+      <button
+        [class.active]="selectedCategory === 'all'"
+        (click)="filterProjects('all')">
+        <i class="fas fa-th-large"></i> {{ 'PROJECTS.CATEGORIES.ALL' | translate }}
+      </button>
+      <button
+        [class.active]="selectedCategory === 'web'"
+        (click)="filterProjects('web')">
+        <i class="fas fa-globe"></i> {{ 'PROJECTS.CATEGORIES.WEB' | translate }}
+      </button>
+      <button
+        [class.active]="selectedCategory === 'mobile'"
+        (click)="filterProjects('mobile')">
+        <i class="fas fa-mobile-alt"></i> {{ 'PROJECTS.CATEGORIES.MOBILE' | translate }}
+      </button>
+      <button
+        [class.active]="selectedCategory === 'ai'"
+        (click)="filterProjects('ai')">
+        <i class="fas fa-brain"></i> {{ 'PROJECTS.CATEGORIES.AI' | translate }}
+      </button>
+      <button
+        [class.active]="selectedCategory === 'security'"
+        (click)="filterProjects('security')">
+        <i class="fas fa-shield-alt"></i> {{ 'PROJECTS.CATEGORIES.SECURITY' | translate }}
+      </button>
+    </div>
+
+    <div class="projects-grid">
+      <div class="project-card" *ngFor="let project of filteredProjects" @fadeInUp>
+        <div class="project-image">
+          <img [src]="project.image" [alt]="project.title | translate">
+          <div class="project-overlay">
+            <div class="project-links">
+              <a *ngIf="project.links.demo" [href]="project.links.demo" target="_blank" class="demo-link">
+                <i class="fas fa-external-link-alt"></i>
+                {{ 'PROJECTS.BUTTONS.LIVE_DEMO' | translate }}
+              </a>
+              <a *ngIf="project.links.github" [href]="project.links.github" target="_blank" class="github-link">
+                <i class="fab fa-github"></i>
+                {{ 'PROJECTS.BUTTONS.SOURCE_CODE' | translate }}
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-content">
+          <div class="project-header">
+            <h3 class="project-title">{{project.title | translate}}</h3>
+          </div>
+
+          <p class="project-description">{{project.description | translate}}</p>
+
+          <div class="project-technologies">
+            <span *ngFor="let tech of project.technologies">
+              {{tech}}
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="decorative-elements">
+    <div class="floating-shape shape-1"></div>
+    <div class="floating-shape shape-2"></div>
+    <div class="floating-shape shape-3"></div>
+  </div>
+</section>

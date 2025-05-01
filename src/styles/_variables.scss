@@ -1,0 +1,15 @@
+// Theme Colors
+$primary: #6B46C1;
+$secondary: #9F7AEA;
+$accent: #D6BCFA;
+$background: #FAF5FF;
+$text-primary: #2D3748;
+$text-secondary: #4A5568;
+
+// Gradients
+$gradient-primary: linear-gradient(135deg, $primary 0%, $secondary 100%);
+$gradient-light: linear-gradient(135deg, rgba($primary, 0.1) 0%, rgba($secondary, 0.1) 100%);
+
+// Animations
+$transition-speed: 0.3s;
+$animation-curve: cubic-bezier(0.4, 0, 0.2, 1);

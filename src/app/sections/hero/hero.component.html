@@ -1,0 +1,64 @@
+<div class="hero-container">
+  <div class="background-elements">
+    <div class="circuit-lines"></div>
+    <div class="floating-elements">
+      <span class="code-symbol">{{ '{' }}{{ '}' }}</span>
+      <span class="code-symbol">&lt;/&gt;</span>
+      <span class="code-symbol">#</span>
+      <span class="code-symbol">( )</span>
+    </div>
+  </div>
+
+  <div class="hero-content">
+    <div class="text-content" [@fadeInUp]>
+      <h1 class="gradient-text">{{ 'HERO.TITLE' | translate }}</h1>
+      <p class="subtitle">{{ 'HERO.SUBTITLE' | translate }}</p>
+
+      <div class="tech-stack">
+        <div class="tech-item" *ngFor="let tech of technologies">
+          <span class="tech-icon" [class]="tech.icon"></span>
+          <span class="tech-name">{{ tech.name }}</span>
+        </div>
+      </div>
+
+      <div class="cta-buttons">
+        <button class="primary-btn" (click)="scrollToSection('projects')">
+          <span class="btn-text">{{ 'HERO.EXPLORE' | translate }}</span>
+          <span class="btn-icon">→</span>
+        </button>
+        <button class="secondary-btn" (click)="scrollToSection('contact')">
+          <span class="btn-text">{{ 'HERO.CONNECT' | translate }}</span>
+        </button>
+      </div>
+    </div>
+
+    <div class="illustration-container" [@fadeInUp]>
+      <div class="screen-frame">
+        <div class="screen-content">
+          <img src="assets/images/programmar.jpg" alt="Programming Illustration">
+        </div>
+      </div>
+
+      <div class="floating-elements">
+        <div class="code-block code-block-1">
+          const developer = {{ '{' }}<br>
+          &nbsp;&nbsp;name: '{{ 'LOGO.NAME' | translate }}',<br>
+          &nbsp;&nbsp;role: '{{ 'HERO.TITLE' | translate }}'<br>
+          {{ '}' }};
+        </div>
+        <div class="code-block code-block-2">
+          function createMagic() {{ '{' }}<br>
+          &nbsp;&nbsp;return '✨';<br>
+          {{ '}' }}
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="scroll-indicator" (click)="scrollToSection('about')">
+    <div class="mouse">
+      <div class="wheel"></div>
+    </div>
+    <span>{{ 'HERO.SCROLL' | translate }}</span>
+  </div>
+</div>

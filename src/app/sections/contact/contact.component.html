@@ -1,0 +1,93 @@
+<section class="contact-section" id="contact">
+  <div class="contact-background">
+    <div class="gradient-circle"></div>
+    <div class="pattern-overlay"></div>
+  </div>
+
+  <div class="container">
+    <h2 class="section-title" @fadeInUp>{{ 'CONTACT.TITLE' | translate }}</h2>
+    <p class="section-subtitle" @fadeInUp>{{ 'CONTACT.SUBTITLE' | translate }}</p>
+
+    <div class="contact-content">
+      <div class="contact-info" @fadeInUp>
+        <div class="info-card">
+          <i class="fas fa-envelope"></i>
+          <h3>{{ 'CONTACT.CONTACT_INFO.EMAIL' | translate }}</h3>
+          <a href="mailto:seijeryalaa&#64;gmail.com">seijeryalaa&#64;gmail.com</a>
+        </div>
+
+        <div class="info-card">
+          <i class="fas fa-phone"></i>
+          <h3>{{ 'CONTACT.CONTACT_INFO.PHONE' | translate }}</h3>
+          <a href="tel:+963984668063">+963 984 668 063</a>
+        </div>
+
+        <div class="info-card">
+          <i class="fas fa-map-marker-alt"></i>
+          <h3>{{ 'CONTACT.CONTACT_INFO.LOCATION' | translate }}</h3>
+          <p>Syria</p>
+        </div>
+      </div>
+
+      <div class="social-links" @fadeInUp>
+        <h3>{{ 'CONTACT.CONTACT_INFO.SOCIAL' | translate }}</h3>
+        <div class="links-grid">
+          <a *ngFor="let link of socialLinks"
+             [href]="link.url"
+             target="_blank"
+             class="social-link"
+             [attr.aria-label]="link.name">
+            <i [class]="link.icon"></i>
+            <span>{{link.name}}</span>
+          </a>
+        </div>
+      </div>
+
+      <form [formGroup]="contactForm" (ngSubmit)="onSubmit()" class="contact-form" @fadeInUp>
+        <h3>{{ 'CONTACT.FORM.SEND' | translate }}</h3>
+
+        <div class="form-group">
+          <label for="name" class="visually-hidden">{{ 'CONTACT.FORM.NAME' | translate }}</label>
+          <input
+            id="name"
+            type="text"
+            name="from_name"
+            formControlName="name"
+            [placeholder]="'CONTACT.FORM.NAME_PLACEHOLDER' | translate"
+            [title]="'CONTACT.FORM.NAME' | translate">
+        </div>
+
+        <div class="form-group">
+          <label for="email" class="visually-hidden">{{ 'CONTACT.FORM.EMAIL' | translate }}</label>
+          <input
+            id="email"
+            type="email"
+            name="from_email"
+            formControlName="email"
+            [placeholder]="'CONTACT.FORM.EMAIL_PLACEHOLDER' | translate"
+            [title]="'CONTACT.FORM.EMAIL' | translate">
+        </div>
+
+        <div class="form-group">
+          <label for="message" class="visually-hidden">{{ 'CONTACT.FORM.MESSAGE' | translate }}</label>
+          <textarea
+            id="message"
+            name="message"
+            formControlName="message"
+            [placeholder]="'CONTACT.FORM.MESSAGE_PLACEHOLDER' | translate"
+            [title]="'CONTACT.FORM.MESSAGE' | translate"
+            rows="5"></textarea>
+        </div>
+
+        <button type="submit" class="submit-btn" [disabled]="isSubmitting || contactForm.invalid">
+          <span>{{ isSubmitting ? ('CONTACT.FORM.SENDING' | translate) : ('CONTACT.FORM.SEND' | translate) }}</span>
+          <i class="fas fa-paper-plane"></i>
+        </button>
+
+        <div class="submit-message" *ngIf="submitMessage">
+          {{ submitMessage | translate }}
+        </div>
+      </form>
+    </div>
+  </div>
+</section>
