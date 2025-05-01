@@ -1,0 +1,160 @@
+{
+  "NAV": {
+    "HOME": "Home",
+    "ABOUT": "About",
+    "SKILLS": "Skills",
+    "PROJECTS": "Projects",
+    "CONTACT": "Contact"
+  },
+  "LOGO": {
+    "NAME": "Alaa Saijary"
+  },
+  "HERO": {
+    "TITLE": "Creative Developer",
+    "SUBTITLE": "Transforming Ideas into Digital Excellence",
+    "EXPLORE": "Explore My Work",
+    "CONNECT": "Let's Connect",
+    "SCROLL": "Scroll to Discover"
+  },
+  "ABOUT": {
+    "TITLE": "About Me",
+    "SUBTITLE": "Web Developer Passionate About Digital Creation",
+    "DESCRIPTION": "A web developer specialized in modern web applications development, with a great passion for creating distinctive user experiences and innovative technical solutions. Always seeking to develop my skills and learn the latest technologies in web development.",
+    "EXPERIENCE": "Years Experience",
+    "PROJECTS": "Projects Done",
+    "CLIENTS": "Happy Clients",
+    "SKILLS_TITLE": "Technical Skills",
+    "PASSION": "Passion for Digital Creation",
+    "SKILLS": {
+      "ANGULAR": "Angular",
+      "TYPESCRIPT": "TypeScript",
+      "JAVASCRIPT": "JavaScript",
+      "HTML_CSS": "HTML/CSS",
+      "NODEJS": "Node.js",
+      "REACT": "React",
+      "MONGODB": "MongoDB",
+      "SQL": "SQL",
+      "GIT": "Git",
+      "REST_API": "RESTful APIs",
+      "FLUTTER": "Flutter",
+      "LARAVEL": "Laravel"
+    }
+  },
+  "SKILLS_SECTION": {
+    "TITLE": "My Skills",
+    "SUBTITLE": "Technologies I Work With",
+    "FRONTEND": "Frontend Development",
+    "BACKEND": "Backend Development",
+    "MOBILE": "Mobile Development",
+    "DATABASE": "Databases",
+    "OTHER": "Other Skills",
+    "YEARS": "years experience",
+    "LEVEL": {
+      "BEGINNER": "Beginner",
+      "INTERMEDIATE": "Intermediate",
+      "ADVANCED": "Advanced",
+      "EXPERT": "Expert"
+    }
+  },
+  "SERVICES": {
+    "TITLE": "My Services",
+    "SUBTITLE": "What I Can Offer",
+    "WEB_DEVELOPMENT": {
+      "TITLE": "Web Development",
+      "DESCRIPTION": "Professional and interactive websites using the latest technologies"
+    },
+    "MOBILE_DEVELOPMENT": {
+      "TITLE": "Mobile Development",
+      "DESCRIPTION": "Modern mobile applications for both Android and iOS"
+    },
+    "UI_DESIGN": {
+      "TITLE": "UI Design",
+      "DESCRIPTION": "Attractive and user-friendly interface designs"
+    },
+    "API_DEVELOPMENT": {
+      "TITLE": "API Development",
+      "DESCRIPTION": "Design and development of robust and scalable APIs"
+    }
+  },
+  "PROJECTS": {
+    "TITLE": "My Projects",
+    "SUBTITLE": "Recent Works",
+    "CATEGORIES": {
+      "ALL": "All",
+      "WEB": "Web Apps",
+      "MOBILE": "Mobile Apps",
+      "AI": "AI Projects",
+      "SECURITY": "Security"
+    },
+    "BUTTONS": {
+      "LIVE_DEMO": "Live Demo",
+      "SOURCE_CODE": "Source Code"
+    },
+    "ITEMS": {
+      "DOCTOR_APPOINTMENT": {
+        "TITLE": "Doctor Appointment Platform",
+        "DESCRIPTION": "Comprehensive medical appointment booking platform with doctor and patient management system",
+        "TECH": ["Angular", "Laravel", "MySQL", "Bootstrap"]
+      },
+      "FOOD_DELIVERY": {
+        "TITLE": "Food Delivery Platform",
+        "DESCRIPTION": "Web application for food ordering and delivery with order tracking system",
+        "TECH": ["Angular", "Laravel", "MySQL", "Tailwind CSS"]
+      },
+      "CRYPTO": {
+        "TITLE": "Cryptocurrency Platform",
+        "DESCRIPTION": "Website for tracking cryptocurrency prices and news",
+        "TECH": ["React", "Redux", "Crypto API", "Material UI"]
+      },
+      "PROJECT1": {
+        "TITLE": "Learning Platform",
+        "DESCRIPTION": "Interactive learning platform with content management system",
+        "TECH": ["Angular", "Node.js", "MongoDB", "Express.js"]
+      },
+      "PROJECT2": {
+        "TITLE": "Task Management App",
+        "DESCRIPTION": "Mobile app for task and schedule management",
+        "TECH": ["Flutter", "Firebase", "Dart"]
+      },
+      "PROJECT3": {
+        "TITLE": "Cybersecurity System",
+        "DESCRIPTION": "Integrated system for data and network protection",
+        "TECH": ["Python", "TensorFlow", "OpenCV", "Keras"]
+      },
+      "PROJECT4": {
+        "TITLE": "AI Chatbot",
+        "DESCRIPTION": "Intelligent chatbot based on artificial intelligence",
+        "TECH": ["Python", "NLP", "TensorFlow", "BERT"]
+      },
+      "PROJECT5": {
+        "TITLE": " medical AI ",
+        "DESCRIPTION": "The disease the patient is suffering from is determined by describing the symptoms of the disease.",
+        "TECH": ["Python", "NLP", "TensorFlow", "BERT"]
+      }
+    }
+  },
+  "CONTACT": {
+    "TITLE": "Contact Me",
+    "SUBTITLE": "Let's Work Together on Your Next Project",
+    "DESCRIPTION": "Ready to connect and work on new projects. Send me a message and I'll respond as soon as possible.",
+    "FORM": {
+      "NAME": "Name",
+      "NAME_PLACEHOLDER": "Enter your name",
+      "EMAIL": "Email",
+      "EMAIL_PLACEHOLDER": "Enter your email",
+      "MESSAGE": "Message",
+      "MESSAGE_PLACEHOLDER": "Write your message here...",
+      "SEND": "Send Message",
+      "SENDING": "Sending...",
+      "SUCCESS": "Your message has been sent successfully!",
+      "ERROR": "Error sending message. Please try again."
+    },
+    "CONTACT_INFO": {
+      "TITLE": "Contact Information",
+      "EMAIL": "Email",
+      "PHONE": "Phone",
+      "LOCATION": "Location",
+      "SOCIAL": "Social Media"
+    }
+  }
+}

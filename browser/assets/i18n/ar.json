@@ -1,0 +1,161 @@
+{
+  "NAV": {
+    "HOME": "الرئيسية",
+    "ABOUT": "عني",
+    "SKILLS": "المهارات",
+    "PROJECTS": "المشاريع",
+    "CONTACT": "تواصل"
+  },
+  "LOGO": {
+    "NAME": "آلاء سيجري"
+  },
+  "HERO": {
+    "TITLE": "مطورة مبدعة",
+    "SUBTITLE": "تحويل الأفكار إلى تميز رقمي",
+    "EXPLORE": "استكشف أعمالي",
+    "CONNECT": "تواصل معي",
+    "SCROLL": "اسحب للاكتشاف"
+  },
+  "ABOUT": {
+    "TITLE": "من أنا",
+    "SUBTITLE": "مطورة ويب شغوفة بالإبداع الرقمي",
+    "DESCRIPTION": "مطورة ويب متخصصة في تطوير تطبيقات الويب الحديثة، مع شغف كبير في خلق تجارب مستخدم مميزة وحلول تقنية مبتكرة. أسعى دائماً لتطوير مهاراتي وتعلم أحدث التقنيات في عالم تطوير الويب.",
+    "EXPERIENCE": "سنوات خبرة",
+    "PROJECTS": "مشروع منجز",
+    "CLIENTS": "عميل سعيد",
+    "SKILLS_TITLE": "مهاراتي التقنية",
+    "PASSION": "شغف بالإبداع الرقمي",
+    "SKILLS": {
+      "ANGULAR": "أنجولار",
+      "TYPESCRIPT": "تايب سكريبت",
+      "JAVASCRIPT": "جافا سكريبت",
+      "HTML_CSS": "HTML/CSS",
+      "NODEJS": "نود جي إس",
+      "REACT": "رياكت",
+      "MONGODB": "MONGODB ",
+      "SQL": " SQL ",
+      "GIT": "GIT",
+      "REST_API": "واجهات برمجة RESTful",
+      "FLUTTER": "فلاتر",
+      "LARAVEL": "لارافيل"
+    }
+  },
+  "SKILLS_SECTION": {
+    "TITLE": "مهاراتي",
+    "SUBTITLE": "التقنيات التي أعمل بها",
+    "FRONTEND": "تطوير الواجهات الأمامية",
+    "BACKEND": "تطوير الخلفيات",
+    "MOBILE": "تطوير تطبيقات الموبايل",
+    "DATABASE": "قواعد البيانات",
+    "OTHER": "مهارات أخرى",
+    "YEARS": "سنوات خبرة",
+    "LEVEL": {
+      "BEGINNER": "مبتدئ",
+      "INTERMEDIATE": "متوسط",
+      "ADVANCED": "متقدم",
+      "EXPERT": "خبير"
+    }
+  },
+  "SERVICES": {
+    "TITLE": "خدماتي",
+    "SUBTITLE": "ما يمكنني تقديمه",
+    "WEB_DEVELOPMENT": {
+      "TITLE": "تطوير المواقع",
+      "DESCRIPTION": "تطوير مواقع ويب احترافية وتفاعلية باستخدام أحدث التقنيات"
+    },
+    "MOBILE_DEVELOPMENT": {
+      "TITLE": "تطوير تطبيقات الموبايل",
+      "DESCRIPTION": "تطوير تطبيقات موبايل عصرية لنظامي Android و iOS"
+    },
+    "UI_DESIGN": {
+      "TITLE": "تصميم واجهات المستخدم",
+      "DESCRIPTION": "تصميم واجهات مستخدم جذابة وسهلة الاستخدام"
+    },
+    "API_DEVELOPMENT": {
+      "TITLE": "تطوير واجهات برمجة التطبيقات",
+      "DESCRIPTION": "تصميم وتطوير APIs قوية وقابلة للتطوير"
+    }
+  },
+  "PROJECTS": {
+    "TITLE": "مشاريعي",
+    "SUBTITLE": "أحدث أعمالي",
+    "CATEGORIES": {
+      "ALL": "الكل",
+      "WEB": "تطبيقات الويب",
+      "MOBILE": "تطبيقات الموبايل",
+      "AI": "الذكاء الاصطناعي",
+      "SECURITY": "الأمن السيبراني"
+    },
+    "BUTTONS": {
+      "LIVE_DEMO": "عرض حي",
+      "SOURCE_CODE": "شيفرة المصدر"
+    },
+    "ITEMS": {
+      "DOCTOR_APPOINTMENT": {
+        "TITLE": "منصة حجز موعد طبيب",
+        "DESCRIPTION": "منصة متكاملة لحجز المواعيد الطبية مع نظام إدارة للأطباء والمرضى",
+        "TECH": ["Angular", "Laravel", "MySQL", "Bootstrap"]
+      },
+      "FOOD_DELIVERY": {
+        "TITLE": "منصة توصيل طعام",
+        "DESCRIPTION": "تطبيق ويب لطلب وتوصيل الطعام مع نظام تتبع الطلبات",
+        "TECH": ["Angular", "Laravel", "MySQL", "Tailwind CSS"]
+      },
+      "CRYPTO": {
+        "TITLE": "منصة العملات الرقمية",
+        "DESCRIPTION": "موقع لمتابعة أسعار وأخبار العملات الرقمية",
+        "TECH": ["React", "Redux", "Crypto API", "Material UI"]
+      },
+      "PROJECT1": {
+        "TITLE": "منصة تعليمية",
+        "DESCRIPTION": "منصة تعليمية تفاعلية مع نظام إدارة المحتوى",
+        "TECH": ["Angular", "Node.js", "MongoDB", "Express.js"]
+      },
+      "PROJECT2": {
+        "TITLE": "تطبيق إدارة المهام",
+        "DESCRIPTION": "تطبيق موبايل لإدارة المهام والمواعيد",
+        "TECH": ["Flutter", "Firebase", "Dart"]
+      },
+      "PROJECT3": {
+        "TITLE": "نظام أمن سيبراني",
+        "DESCRIPTION": "نظام متكامل لحماية البيانات والشبكات",
+        "TECH": ["Python", "TensorFlow", "OpenCV", "Keras"]
+      },
+      "PROJECT4": {
+        "TITLE": "روبوت محادثة ذكي",
+        "DESCRIPTION": "روبوت محادثة يعتمد على الذكاء الاصطناعي",
+        "TECH": ["Python", "NLP", "TensorFlow", "BERT"]
+      },
+      "PROJECT5": {
+        "TITLE": "مستكشف الأمراض الذكي ",
+        "DESCRIPTION": "يتم تحديد المرض الذي يعاني منه المريض من خلال وصف أعراض المرض ",
+        "TECH": ["Python", "NLP", "TensorFlow", "BERT"]
+      }
+    }
+  }, 
+    "CONTACT": {
+      "TITLE": "تواصل معي",
+      "SUBTITLE": "دعنا نعمل معاً على مشروعك القادم",
+      "DESCRIPTION": "جاهزة للتواصل والعمل على مشاريع جديدة. أرسل لي رسالة وسأرد في أقرب وقت ممكن.",
+      "FORM": {
+        "NAME": "الاسم",
+        "NAME_PLACEHOLDER": "أدخل اسمك",
+        "EMAIL": "البريد الإلكتروني",
+        "EMAIL_PLACEHOLDER": "أدخل بريدك الإلكتروني",
+        "MESSAGE": "الرسالة",
+        "MESSAGE_PLACEHOLDER": "اكتب رسالتك هنا...",
+        "SEND": "إرسال رسالة",
+        "SENDING": "جاري الإرسال...",
+        "SUCCESS": "تم إرسال رسالتك بنجاح!",
+        "ERROR": "حدث خطأ في إرسال الرسالة. يرجى المحاولة مرة أخرى."
+      },
+      "CONTACT_INFO": {
+        "TITLE": "معلومات التواصل",
+        "EMAIL": "البريد الإلكتروني",
+        "PHONE": "الهاتف",
+        "LOCATION": "الموقع",
+        "SOCIAL": "التواصل الاجتماعي"
+      }
+    }
+
+}
